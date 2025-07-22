@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="./script.js" type="module" defer></script>
+
+        <link rel="stylesheet" id="darkmode" href="./lightmode.css">
+        <link rel="stylesheet" href="./style.css">
+        <title>Titre du document</title>
+    </head>
+
+    <body>
+       <div class="wire">
+        <h1 id="main-title">Créé ton profil</h1>
+        <div id="citation">
+            <h2 class="secondary-title" id="quote">Citation par défaut</h2>
+            <button id="quote-btn">Changer de citation</button>
+        </div>
+        <section id="section-pseudo">
+            <label for="pseudo">Pseudo</label>
+             <input type="text" id="pseudo" name="pseudo" placeholder="Pseudo">
+        </section>
+        <section id="section-avatar">
+             <h2 class="secondary-title" >Avatar</h2>
+             <div class="carrou">
+                <img class="img-avatar" src="./img/img1.png" alt="image 1">
+                <img class="img-avatar" src="./img/img2.png" alt="image 2">
+                <img class="img-avatar" src="./img/img3.png" alt="image 3">
+             </div>
+        </section>
+
+        <button id="next" disabled> Désactivé  </button>
+
+        <div id="section-mode">
+            <input type="checkbox" id="toggleMode" name="mode" value="Light/dark" />
+            <label for="mode">Light/dark</label>
+        </div>
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+:root {
+  /* Couleurs */
+  --color-bg: #ffffff;
+  --color-text-primary: #111111;
+  --color-text-secondary: #555555;
+  --color-border: #cccccc;
+  --color-input-bg: #f7f7f7;
+  --color-button-bg: #e0e0e0;
+  --color-button-text: #000000;
+
+  /* Ombre */
+  --shadow-card: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+  /* Rayon */
+  --radius: 1rem;
+
+  /* Espacement */
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+
+  /* Fonts */
+  --font-main: 'Segoe UI', sans-serif;
+  --font-title-size: 1.8rem;
+  --font-subtitle-size: 1rem;
+}
