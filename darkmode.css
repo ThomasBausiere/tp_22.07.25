@@ -12,15 +12,15 @@
   /* Ombre */
   --shadow-card: 0 4px 12px rgba(0, 0, 0, 0.5);
 
-  /* Rayon (inchangé) */
+  /* Rayon  */
   --radius: 1rem;
 
-  /* Espacement (inchangé) */
+  /* Espacement  */
   --spacing-sm: 0.5rem;
   --spacing-md: 1rem;
   --spacing-lg: 2rem;
 
-  /* Fonts (inchangé) */
+  /* Fonts  */
   --font-main: 'Segoe UI', sans-serif;
   --font-title-size: 1.8rem;
   --font-subtitle-size: 1rem;
