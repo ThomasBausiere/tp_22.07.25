@@ -107,3 +107,30 @@ body {
   font-weight: bold;
   color: var(--color-text-primary);
 }
+
+
+#profil{
+  display: none;
+  width: 90%;
+  height: auto;
+  background-color: var(--color-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-card);
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: var(--color-text-primary);
+}
+
+#profil img{
+  width: 25%;
+  height: auto;
+}
+
+#profil .user_pseudo{
+  font-weight: bold;
+  font-size: larger;
+  color: var(--color-text-primary);
+}
